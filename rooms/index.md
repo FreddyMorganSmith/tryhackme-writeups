@@ -17,3 +17,9 @@
 **Time to Complete:** 17 minutes  
 **Summary:** Practiced basic Linux shell commands (`whoami`, `ls`, `cd`, `cat`, `pwd`, `echo`) while exploring `tryhackme/linux1/`. Found `notes.txt` in `folder4`, read its contents, and practiced file redirection (`>`, `>>`). Good intro to filesystem navigation and command redirection.  
 **Writeup:** [README](linux-fundamentals-part-1/README.md)
+
+## Networking Concepts
+**Difficulty:** Beginner  
+**Time to Complete:** 15 minutes  
+**Summary:** Opened two Linux VMs and practised basic network service enumeration using `telnet` to connect to services on 10.10.6.86 (port 7 echo, port 13 daytime, port 80 HTTP). Observed echo responses, time strings, and HTTP headers to learn basic TCP service behavior.  
+**Writeup:** [README](networking-concepts/README.md)
