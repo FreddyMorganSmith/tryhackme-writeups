@@ -23,3 +23,16 @@
 **Time to Complete:** 15 minutes  
 **Summary:** Opened two Linux VMs and practised basic network service enumeration using `telnet` to connect to services on 10.10.6.86 (port 7 echo, port 13 daytime, port 80 HTTP). Observed echo responses, time strings, and HTTP headers to learn basic TCP service behavior.  
 **Writeup:** [README](networking-concepts/README.md)
+
+## Cryptography Basics
+**Difficulty:** Beginner  
+**Time to Complete:** 10 minutes  
+**Summary:** Introductory concepts: plaintext vs ciphertext, encryption/decryption, ciphers and keys. Practised Caesar cipher decryption (XRPCTCRGNEI → ICANENCRYPT) and reviewed XOR logic and modulo examples. No tools or VMs required.  
+**Writeup:** [README](cryptography-basics/README.md)
+
+## Metasploit Intro
+**Difficulty:** Beginner  
+**Time to Complete:** 27 minutes  
+**Summary:** Intro to Metasploit and `msfconsole`: learned module types (Auxiliary, Exploits, Encoders, payloads, post), practised searching modules (`search apache`, `search auxiliary/scanner/ssh/ssh_login`), inspected modules with `info` (module provided by `todb`), used `show options`, configured `RHOSTS`, `LPORT`, and used `setg` for global settings.  
+**Writeup:** [README](Metasploit-intro/README.md)
+
